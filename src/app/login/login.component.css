@@ -1,0 +1,56 @@
+/* Global Styles */
+
+
+  
+  label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 30%;
+    height: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e98888;
+    border-radius: 5px;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #b79494;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    width: 5%;
+    height: 40px;
+    background-color: #99af4c;
+    color: #e3dada;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #99af4c;
+  }
+  
+  button[type="submit"][disabled] {
+    background-color: #e42121;
+    cursor: not-allowed;
+  }
+  
+  /* Login Form Styles */
+  
+  .login-form {
+    max-width: 30px;
+    margin: 4px auto;
+    padding: 20px;
+    background-color: #e89191;
+    border: 1px solid #712121;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
